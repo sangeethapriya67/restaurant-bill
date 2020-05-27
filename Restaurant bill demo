@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int order;
+    printf("select the menu number you wished ?\n");
+    scanf("%d",&order);
+    switch (order)
+    {
+        case 1: 
+        printf("\tFoodItem - Pizza\n");
+        printf("\tPriceamt - Rs:150");
+        break;
+        case 2:
+        printf("\tFoodItem - Burger\n");
+        printf("\tPriceamt - Rs:200");
+        break;
+        case 3:
+        printf("\tFoodItem - frenchfries\n");
+        printf("\tPriceamt - Rs:100");
+        break;
+        case 4:
+        printf("\tFoodItem - pasta\n");
+        printf("\tPriceamt - Rs:250");
+        break;
+        case 5: 
+        printf("\tFoodItem - sandwich\n");
+        printf("\tPriceamt - Rs:400");
+        break;
+        default:
+        printf("default");
+    }
+    return 0;
+    }
